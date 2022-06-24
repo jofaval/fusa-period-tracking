@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  frontend:
+    container_name: "${COMPOSE_PROJECT_NAME}-node-frontend"
+    image: instrumentisto/vue-app-example:dev
+    build: .
+    expose:
+      - "8080"
+    ports:
+      - "8080:8080"   # express
+    volumes:
+      - ../app:/app
