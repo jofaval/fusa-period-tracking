@@ -2,7 +2,7 @@
 import constants from './constants/home.constants'
 </script>
 <template>
-  <h1 class="text-3xl font-bold underline">{{ $t(constants.TITLE) }}</h1>
+  <h1 class="text-3xl font-bold">{{ $t(constants.TITLE) }}</h1>
   <el-button type="primary">Default</el-button>
 </template>
 
