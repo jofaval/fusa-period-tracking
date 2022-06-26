@@ -5,11 +5,10 @@ import ElementUI from 'element-plus';
 // Components
 import App from './App.vue';
 // Routing
-import router from './routes/router';
+import router from './router';
 // Styles
 import './index.css';
 import 'element-plus/dist/index.css';
-// import 'element-plus/lib/theme-chalk/index.css';
 // Locales
 import messages from './langs/langs';
 
