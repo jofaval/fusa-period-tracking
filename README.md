@@ -64,7 +64,7 @@ Periods are also something that as a cis male, I don't know that much about, but
 ### Roadmap
 [↑ To the section](#product)
 
-It is specified, visible and up-to-date at the [Github Projects](https://github.com/users/jofaval/projects/1/views/7).
+It is specified, visible and up-to-date at the [Github's Project](https://github.com/users/jofaval/projects/1/views/7).
 
 ## Deployment
 [↑ Table of contents](#contents)
