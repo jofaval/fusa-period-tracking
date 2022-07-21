@@ -1,10 +1,7 @@
-// Types
-import type PronounsEntityType from 'entities/pronouns/types/pronouns.type';
-
 /**
  * All the information related to a gender, for this application's purposes that is
  */
-export type GenderEntityType = {
+interface IGenderEntity extends Entity {
   /**
    * The name of the gender
    */
@@ -13,7 +10,5 @@ export type GenderEntityType = {
   /**
    * All the information related to the pronouns this gender uses
    */
-  pronouns: PronounsEntityType;
-};
-
-export default GenderEntityType;
+  pronouns: IPronounsEntity;
+}
