@@ -1,11 +1,7 @@
-// Types
-import type GenderEntityType from 'entities/gender/types/gender.type';
-import type PronounsEntityType from 'entities/pronouns/types/pronouns.type';
-
 /**
  * The details about a profile
  */
-export type ProfileEntityType = {
+interface IProfileEntity extends IEntity {
   /**
    * The name given to a profile, suppose you want to have a "mine"/"main" and a friend's one
    */
@@ -26,12 +22,13 @@ export type ProfileEntityType = {
    */
   surName: string;
 
-  prefferedPronouns: PronounsEntityType;
+  /**
+   * The set of preferred pronouns for a profile
+   */
+  prefferedPronouns: IPronounsEntity;
 
   /**
    * A person may have multiple genders and they may want to specify them
    */
-  genders: GenderEntityType[];
-};
-
-export default ProfileEntityType;
+  genders: IGenderEntity[];
+}
