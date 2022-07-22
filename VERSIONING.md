@@ -5,13 +5,13 @@ This will try to clarify when to upgrade the version, and how. It won't be too c
 ## Contents
 
 1. [Minor changes](#minor-changes)
-  1. [Represented as](#represented-as)
+    1. [Represented as](#represented-as)
 1. [Major changes](#major-changes)
-  1. [Represented as](#represented-as-1)
+    1. [Represented as](#represented-as-1)
 1. [Patches](#patches)
-  1. [Represented as](#represented-as-2)
+    1. [Represented as](#represented-as-2)
 1. [Completely new version](#completely-new-version)
-  1. [Represented as](#represented-as-3)
+    1. [Represented as](#represented-as-3)
 1. [References](#references)
 
 ## Minor changes
@@ -52,7 +52,7 @@ When a milestone is achieved.
 ### Represented as
 [↑ Table of contents](#contents)
 
-v1.0.0 -> v0.0.0
+v0.0.0 -> v1.0.0
 
 ## References
 [↑ Table of contents](#contents)
