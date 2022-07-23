@@ -21,6 +21,10 @@ export default {
       name: 'fallback',
       component: Home,
     },
+    {
+      path: '*',
+      redirect: 'home',
+    },
   ],
   TITLES: {
     [pathConstants.HOME]: 'Home',
