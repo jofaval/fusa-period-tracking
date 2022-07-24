@@ -5,6 +5,20 @@ All the changes made to this project, wether they are bugfixes, additions, modif
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2022-07-24
+
+### Added
+
+- Documentation for the Visual Identity.
+- Planned a little bit the ideas and detected work to do in the Github Project.
+
+## 2022-07-24 (v0.0.2)
+
+### Added
+
+- Implemented the base routing system.
+- The document title will change with the route, with translations.
+
 ## 2022-07-22 (v0.0.1)
 
 ### Added
