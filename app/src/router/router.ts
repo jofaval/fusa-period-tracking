@@ -1,4 +1,5 @@
 // Vendors
+import Vue from 'vue';
 import { createRouter, createWebHashHistory, RouteLocationNormalized } from 'vue-router';
 // Constants
 import constants from './constants/routes.constants';
@@ -10,7 +11,8 @@ const router = createRouter({
 });
 
 export const onRouteChange = (to: RouteLocationNormalized): void => {
-  document.title = constants.TITLES?.[to.name?.toString() ?? ''] ?? configConstants.APP_NAME;
+  const titleId = constants.TITLES?.[to.name?.toString() ?? ''] ?? configConstants.APP_NAME;
+  document.title = Vue.i18n.translate(titleId);
 };
 
 router.afterEach(onRouteChange);

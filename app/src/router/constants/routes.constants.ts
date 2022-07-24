@@ -27,8 +27,8 @@ export default {
     },
   ],
   TITLES: {
-    [pathConstants.HOME]: 'Home',
-    [pathConstants.FALLBACK]: 'Home',
-    [pathConstants.PROFILE.ROOT]: 'Profile',
+    [pathConstants.HOME]: 'pages.home.title',
+    [pathConstants.FALLBACK]: 'pages.fallback.title',
+    [pathConstants.PROFILE.ROOT]: 'pages.profile.root.title',
   },
 };
