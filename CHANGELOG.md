@@ -5,7 +5,13 @@ All the changes made to this project, wether they are bugfixes, additions, modif
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2022-07-24
+## 2022-07-24 (v0.0.3)
+
+### Added
+
+- Created and integrated the base CI/CD pipelines for deployment and Pull Requests (PRs) validations.
+
+## 2022-07-24 (v0.0.3)
 
 ### Added
 
