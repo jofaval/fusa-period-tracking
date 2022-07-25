@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import constants from './constants/home.constants'
+import constants from './constants/home.constants';
 </script>
 <template>
   <h1 class="text-3xl font-bold">{{ $t(constants.TITLE) }}</h1>
