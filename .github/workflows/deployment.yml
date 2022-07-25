@@ -16,9 +16,12 @@ jobs:
         node-version: [15.14.0]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
+    defaults:
+      run:
+        working-directory: ./app
+
     steps:
       - uses: actions/checkout@v3
-      - run: cd app
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
