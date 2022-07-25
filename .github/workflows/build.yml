@@ -16,9 +16,8 @@ jobs:
         node-version: [15.14.0]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
-    defaults:
-      run:
-        working-directory: ./app
+    env:
+      working-directory: ./app
 
     steps:
       - uses: actions/checkout@v3
@@ -27,7 +26,12 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+          cache-dependency-path: ${{ env.working-directory }}
       - run: npm ci
+        working-directory: ${{ env.working-directory }}
       - run: npm run build --if-present
+        working-directory: ${{ env.working-directory }}
       - run: npm run coverage
+        working-directory: ${{ env.working-directory }}
       # - run: npm run test:e2e
+      #   working-directory: ${{ env.working-directory }}

@@ -9,7 +9,7 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "lint": "eslint --ext .js --ext .jsx --ext .ts --ext .tsx --ext .vue src/",
-    "prepare": "husky install"
+    "postinstall": "is-ci || husky install"
   },
   "husky": {
     "hooks": {
