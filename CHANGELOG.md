@@ -5,6 +5,13 @@ All the changes made to this project, wether they are bugfixes, additions, modif
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2022-07-25 (v0.0.4)
+
+### Added
+
+- Documented the tech stack and added IndexDB to the technologies stack docs
+- Created the base Docker infrastructure following Vue's official docs
+
 ## 2022-07-25 (v0.0.3)
 
 ### Added

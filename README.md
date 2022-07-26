@@ -41,6 +41,7 @@ A period tracking app based on the premise that no server will store the data, n
 - Vite
 - Tailwind
 - Vitest + Cypress
+- Docker + Docker-Compose
 
 ## Objectives and requirements
 
