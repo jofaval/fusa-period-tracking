@@ -36,12 +36,18 @@ A period tracking app based on the premise that no server will store the data, n
 ## Tech Stack
 [↑ Table of contents](#contents)
 
-- Vue3
-- Typescript
-- Vite
-- Tailwind
-- Vitest + Cypress
-- Docker + Docker-Compose
+- **Vue3**
+  - Frontend framework based on reactivity and progressiveness originally developed by Evan You.
+- **Typescript**
+  - Improved version of JavaScript that implements TypeScript so that safer code is delivered.
+- **Vite**
+  - Web bundler originally created for Vue's ecosystem.
+- **Tailwind**
+  - CSS library that delivers a really small bundle to the client with only what you used.
+- **Vitest + Cypress**
+  - Testing packages for unit, integration and e2e tests.
+- **Docker + Docker-Compose**
+  - Virtualization technologies to deploy containers with the technologies you want.
 
 ## Objectives and requirements
 
@@ -58,7 +64,7 @@ It's going to be a period tracking app based on the premise that the user will h
 ### Why?
 [↑ To the section](#product)
 
-The situation in USA at the moment of development is out of control, it has put, not only women, but any fertile, person with a uterus at high risk, so, currently, having a period tracking app may put you in danger since they may be selling your data (which, if not most, a lot of them are! More on that on the following article [How period tracking apps and data privacy fit into a post-Roe v. Wade climate](https://t.co/1Zss963iET)).
+The situation in USA at the moment of development is out of control, it has put, not only women, but any fertile, person with a uterus at high risk, so, currently, having a period tracking app may put you in danger since they may be selling your data (which, if not most, a lot of them are! More on that on the following article [How period tracking apps and data privacy fit into a post-Roe v. Wade climate](https://t.co/1Zss963iET).
 
 Periods are also something that as a cis male, I don't know that much about, but I'm ready to learn all that I can, and is also a strong point I'm looking forward
 
