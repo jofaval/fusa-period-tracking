@@ -18,4 +18,21 @@ const i18n = createI18n({
   fallbackLocale: 'en',
 });
 
-createApp(App).use(i18n).use(ElementUI).use(router).mount('#app');
+const app = createApp(App);
+app.use(i18n).use(ElementUI).use(router).mount('#app');
+
+window.onerror = function (message, source, lineno, colno, error) {
+  if (process.env.NODE_ENV === 'production') {
+    return;
+  }
+
+  console.error('Window error detected:', { message, source, lineno, colno, error });
+};
+
+app.config.errorHandler = function (err, vm, info) {
+  if (process.env.NODE_ENV === 'production') {
+    return;
+  }
+
+  console.error('Vue.js error detected:', { err });
+};
