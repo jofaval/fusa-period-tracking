@@ -5,6 +5,16 @@ All the changes made to this project, wether they are bugfixes, additions, modif
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2022-07-25 (v0.0.5)
+
+### Modified
+
+- Added a brief description of the tech stack in the readme
+
+### Fixed
+
+- Fixed minor mistake of floating parenthesis in news' link
+
 ## 2022-07-25 (v0.0.4)
 
 ### Added
