@@ -1,27 +1,21 @@
 {
   "name": "fusa",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview",
-    "test": "vitest",
-    "coverage": "vitest run --coverage",
     "lint": "eslint --ext .js --ext .jsx --ext .ts --ext .tsx --ext .vue src/",
-    "postinstall": "is-ci || husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint && test",
-      "pre-push": "lint && prettier && test",
-      "post-merge": "lint && prettier && test"
-    }
+    "coverage": "vitest run --coverage",
+    "dev": "vite",
+    "postinstall": "is-ci || husky install",
+    "preview": "vite preview",
+    "test": "vitest"
   },
   "dependencies": {
     "cypress": "^10.2.0",
     "element-plus": "^2.2.6",
     "pinia": "^2.0.14",
+    "register-service-worker": "^1.7.2",
     "vue": "^3.2.25",
     "vue-i18n": "^9.1.10",
     "vue-router": "^4.0.16"
@@ -30,6 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
     "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/cli-plugin-pwa": "~5.0.0",
     "autoprefixer": "^10.4.7",
     "c8": "^7.11.3",
     "eslint": "^8.18.0",
@@ -52,5 +47,12 @@
     "vite": "^2.9.9",
     "vitest": "^0.16.0",
     "vue-tsc": "^0.34.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint && test",
+      "pre-push": "lint && prettier && test",
+      "post-merge": "lint && prettier && test"
+    }
   }
 }
