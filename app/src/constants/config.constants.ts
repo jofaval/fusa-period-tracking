@@ -4,7 +4,7 @@ const ENVIRONTMENTS = {
 };
 
 const PUBLIC_PATHS = {
-  [ENVIRONTMENTS.PRODUCTION]: '/',
+  [ENVIRONTMENTS.PRODUCTION]: '/fusa-period-tracking',
   [ENVIRONTMENTS.DEVELOPMENT]: '/',
 };
 

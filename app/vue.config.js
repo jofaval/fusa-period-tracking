@@ -1,6 +1,6 @@
 // vue.config.js
 const { defineConfig } = require('@vue/cli-service');
-const constants = require('./src/config/config.constants').default;
+const constants = require('./src/constants/config.constants').default;
 
 const publicPath =
   // There may be different environments: dev, qa, staging, pre-prod, prod...
