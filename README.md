@@ -1,4 +1,4 @@
-# FUSA #
+# FUSA&nbsp;![Deployment](https://github.com/jofaval/fusa-period-tracking/actions/workflows/deployment.yml/badge.svg)&nbsp;![Validation](https://github.com/jofaval/fusa-period-tracking/actions/workflows/build.yml/badge.svg)
 
 An open-source gender-neutral period-tracking app that leaves data management in it's totally to the end user.
 
