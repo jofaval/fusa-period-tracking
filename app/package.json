@@ -7,7 +7,7 @@
     "lint": "eslint --ext .js --ext .jsx --ext .ts --ext .tsx --ext .vue src/",
     "coverage": "vitest run --coverage",
     "dev": "vite",
-    "postinstall": "is-ci || husky install",
+    "postinstall": "is-ci || cd .. && husky install app/.husky",
     "preview": "vite preview",
     "test": "vitest"
   },
