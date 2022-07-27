@@ -30,6 +30,25 @@ const store = defineStore('global', {
   actions: {
     initializeIndexedDb() {
       this.db = null;
+
+      const { NAME, VERSION } = dbConstants;
+      const DBOpenRequest = window.indexedDB.open(NAME, VERSION);
+
+      // Success handler
+      DBOpenRequest.onsuccess = (() => {
+        const context = this;
+        return function () {
+          context.db = DBOpenRequest.result;
+        };
+      })();
+
+      // Error handler
+      DBOpenRequest.onerror = (() => {
+        const context = this;
+        return function (event) {
+          context.dbError = event;
+        };
+      })();
     },
     initializeStore() {
       this.initializeIndexedDb();
