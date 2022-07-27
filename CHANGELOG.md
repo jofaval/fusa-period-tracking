@@ -5,7 +5,24 @@ All the changes made to this project, wether they are bugfixes, additions, modif
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2022-07-26 (v0.0.6)
+## 2022-07-07 (v0.0.7)
+
+### Added
+
+- The base PWA (Progressive Web App) features are now installed
+
+### Modified
+
+- No logo will be shown, for the moment being that is
+- i18n object is now created in it's abstract (`index.ts`) file
+
+### Fixed
+
+- Some pathings on imports here and there. 
+- Github Actions is now correctly deploying, it wasn't due to husky's config path and inexistent types.
+- Production path is now working the correct and expected path
+
+## 2022-07-27 (v0.0.6)
 
 ### Added
 
