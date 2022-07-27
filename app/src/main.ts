@@ -10,13 +10,7 @@ import router from './router';
 import './index.css';
 import 'element-plus/dist/index.css';
 // Locales
-import messages from './langs/langs';
-
-const i18n = createI18n({
-  locale: 'es',
-  messages,
-  fallbackLocale: 'en',
-});
+import i18n from 'langs';
 
 const app = createApp(App);
 app.use(i18n).use(ElementUI).use(router).mount('#app');

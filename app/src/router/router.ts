@@ -1,9 +1,10 @@
 // Vendors
-import Vue from 'vue';
 import { createRouter, createWebHashHistory, RouteLocationNormalized } from 'vue-router';
 // Constants
 import constants from './constants/routes.constants';
 import { configConstants } from '../constants';
+// Locales
+import i18n from 'langs';
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -12,7 +13,7 @@ const router = createRouter({
 
 export const onRouteChange = (to: RouteLocationNormalized): void => {
   const titleId = constants.TITLES?.[to.name?.toString() ?? ''] ?? configConstants.APP_NAME;
-  document.title = Vue.i18n.translate(titleId);
+  document.title = i18n.global.t(titleId);
 };
 
 router.afterEach(onRouteChange);
