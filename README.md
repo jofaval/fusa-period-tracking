@@ -13,6 +13,7 @@ Delete your period tracking apps today.
 ## Contents
 
 1. [Description](#description)
+1. [Documentation](#documentation)
 1. [Tech Stack](#tech-stack)
 1. [Objectives and requirements](#objectives-and-requirements)
 1. [Product](#product)
@@ -35,7 +36,7 @@ A period tracking app based on the premise that no server will store the data, n
 
 ## Documentation
 
-All the documentation is detailed at the `/docs` folder which you can access from [here](./docs/) or at the [official link](https//github.com/jofaval/fusa-period-tracking/tree/master/docs).
+All the documentation is detailed at the `/docs` folder which you can access from [here](./docs/) or at the [official link](https://github.com/jofaval/fusa-period-tracking/tree/master/docs).
 
 ## Tech Stack
 [↑ Table of contents](#contents)
