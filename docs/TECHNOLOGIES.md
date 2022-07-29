@@ -5,8 +5,8 @@ A little bit more insight into the technologies I chose for this project, and my
 ## Technologies
 
 1. [Vue.js](#vuejs)
-1. [Pinia](#pinia)
-1. [Vite](#vite)
+    1. [Pinia](#pinia)
+    1. [Vite](#vite)
 1. [Tailwind](#tailwind)
 1. [IndexDB](#indexdb)
 1. [Vitest + Cypress](#vitest--cypress)
