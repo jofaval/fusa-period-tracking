@@ -56,12 +56,14 @@ type MetricsConvertTemperature = {
   temperature: number;
   originFormat: MetricsTemperatureFormat;
   targetFormat: MetricsTemperatureFormat;
+  decimals: number;
 };
 
 export const convertTemperature = ({
   temperature,
   originFormat = metricsConstants.TEMPERATURE.FORMATS.CELSIUS,
   targetFormat = metricsConstants.TEMPERATURE.FORMATS.CELSIUS,
+  decimals = 2,
 }: MetricsConvertTemperature): number => {
   const standarizedTempreature: number = standarizeTemperature({ temperature, originFormat });
   const transformedTempreature: number = transformTemperature({
@@ -69,7 +71,7 @@ export const convertTemperature = ({
     targetFormat,
   });
 
-  return transformedTempreature;
+  return Number(transformedTempreature.toFixed(decimals));
 };
 
 export default { convertTemperature };
