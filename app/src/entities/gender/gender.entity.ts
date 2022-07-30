@@ -1,7 +1,7 @@
 // Entities
 import Entity from '../entity';
 // Helpers
-import { serialize } from '../../architecture/helpers/entity.helpers';
+import { serialize } from '@/architecture/helpers/entity.helpers';
 
 export default class Gender extends Entity implements IGenderEntity {
   public pronouns: IPronounsEntity;
