@@ -17,7 +17,7 @@
 import { defineComponent } from 'vue';
 // Constants
 import metricsConstants from '@/metrics/metrics.constants';
-// Utils
+// Utilities
 import { convertTemperature } from '@/metrics/metrics.utils';
 
 const props = defineProps({

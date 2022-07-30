@@ -11,11 +11,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - An absolute path alias for imports as `'@/'`.
 - Created the metrics temperature component.
+- Created metrics temperature utilities tests.
 
 ### Modified
 
 - Imports now use the aboslute path alias when necessary.
 - Moved App's title to the multilang strings.
+
+### Fixed
+
+- Absolute path should now be completely integrated so that the build doesn't fail.
 
 ## 2022-07-30 (v0.0.8)
 
