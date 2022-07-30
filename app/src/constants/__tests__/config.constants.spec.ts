@@ -13,7 +13,7 @@ describe('Config constants', () => {
   it('should return production and dev public paths', () => {
     expect(configConstants.PUBLIC_PATHS).toEqual(
       expect.objectContaining({
-        production: '/fusa-period-tracking',
+        production: '/fusa-period-tracking/',
         dev: '/',
       })
     );

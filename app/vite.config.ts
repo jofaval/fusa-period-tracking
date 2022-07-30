@@ -1,7 +1,7 @@
 // Vendors
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-const path = require('path');
+import { fileURLToPath, URL } from 'url';
 // Constants
 const configConstants = require('./src/constants/config.constants').default;
 
@@ -20,7 +20,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
   plugins: [vue()],

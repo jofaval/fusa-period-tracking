@@ -56,7 +56,7 @@ type MetricsConvertTemperature = {
   temperature: number;
   originFormat: MetricsTemperatureFormat;
   targetFormat: MetricsTemperatureFormat;
-  decimals: number;
+  decimals?: number;
 };
 
 export const convertTemperature = ({

@@ -1,6 +1,6 @@
 // Vendors
-import dbConstants from 'constants/db.constants';
-import themeConstants from 'constants/theme.constants';
+import dbConstants from '@/constants/db.constants';
+import themeConstants from '@/constants/theme.constants';
 import { defineStore } from 'pinia';
 
 interface IState {
