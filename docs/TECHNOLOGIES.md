@@ -1,3 +1,5 @@
+[« Back](./README.md)
+
 # Technology stack #
 
 A little bit more insight into the technologies I chose for this project, and my reasoning.
