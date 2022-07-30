@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Modified
 
 - Imports now use the aboslute path alias when necessary.
+- Moved App's title to the multilang strings.
 
 ## 2022-07-30 (v0.0.8)
 
