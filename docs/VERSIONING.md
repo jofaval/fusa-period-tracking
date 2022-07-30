@@ -1,3 +1,5 @@
+[« Back](./README.md)
+
 # Versioning #
 
 This will try to clarify when to upgrade the version, and how. It won't be too complex for my own good.
