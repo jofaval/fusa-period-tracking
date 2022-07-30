@@ -22,7 +22,11 @@ export default {
       component: Home,
     },
     {
-      path: '*',
+      path: '/:pathMatch(.*)*',
+      redirect: 'home',
+    },
+    {
+      path: '/:pathMatch(.*)',
       redirect: 'home',
     },
   ],
