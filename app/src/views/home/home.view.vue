@@ -1,9 +1,13 @@
 <script setup lang="ts">
 import constants from './constants/home.constants';
+// Components
+import MetricsTemperatureComponentVue from '@/components/MetricsTemperatureComponent.vue';
 </script>
+
 <template>
   <h1 class="text-3xl font-bold">{{ $t(constants.TITLE) }}</h1>
   <el-button type="primary">Default</el-button>
+  <MetricsTemperatureComponentVue :temperature="500" />
 </template>
 
 <style scoped>
