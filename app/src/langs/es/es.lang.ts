@@ -15,4 +15,14 @@ export default {
       },
     },
   },
+  metrics: {
+    temperature: {
+      title: 'Temperatura',
+      suffix: {
+        celsius: 'Cº',
+        fahrenheit: 'Fº',
+        kelvin: 'Kº',
+      },
+    },
+  },
 };

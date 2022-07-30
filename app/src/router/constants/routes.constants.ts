@@ -1,8 +1,8 @@
 // Constants
-import { pathConstants } from '../../constants';
+import { pathConstants } from '@/constants';
 // Views
-import Home from '../../views/home/home.view.vue';
-import Profile from '../../views/profile/profile.view.vue';
+import Home from '@/views/home/home.view.vue';
+import Profile from '@/views/profile/profile.view.vue';
 
 export default {
   ROUTES: [
