@@ -1,4 +1,7 @@
 export default {
+  app: {
+    title: 'FUSA - Seguimiento menstrual',
+  },
   home: {
     title: 'Bienvenide!',
   },

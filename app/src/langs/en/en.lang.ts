@@ -1,4 +1,7 @@
 export default {
+  app: {
+    title: 'FUSA - Period Tracking',
+  },
   home: {
     title: 'Welcome!',
   },

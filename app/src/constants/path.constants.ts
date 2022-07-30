@@ -1,5 +1,5 @@
 export default {
-  HOME: '/home',
+  HOME: '/',
   PROFILE: {
     ROOT: '/profile',
     SWITCH: '/profile/switch',

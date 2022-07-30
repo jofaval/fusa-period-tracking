@@ -9,7 +9,7 @@ const PUBLIC_PATHS = {
 };
 
 export default {
-  APP_NAME: 'FUSA',
+  APP_NAME: 'app.title',
   ENVIRONTMENTS,
   PUBLIC_PATHS,
 };
