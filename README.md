@@ -15,6 +15,7 @@ Delete your period tracking apps today.
 1. [📰 Description](#-description)
 1. [📚 Documentation](#-documentation)
 1. [🧱 Tech Stack](#-tech-stack)
+1. [🌇 Architecture](#-architecture)
 1. [💡 Objectives and requirements](#-objectives-and-requirements)
 1. [🗽 Product](#-product)
     1. [😥 Description](#-description-1)
@@ -54,6 +55,11 @@ All the documentation is detailed at the `/docs` folder which you can access fro
   - Testing packages for unit, integration and e2e tests.
 - **Docker + Docker-Compose**
   - Virtualization technologies to deploy containers with the technologies you want.
+
+## 🌇 Architecture
+[↑ Table of contents](#-contents)
+
+_To be defined..._
 
 ## 💡 Objectives and requirements
 [↑ Table of contents](#-contents)
