@@ -59,7 +59,11 @@ All the documentation is detailed at the `/docs` folder which you can access fro
 ## 🌇 Architecture
 [↑ Table of contents](#-contents)
 
-_To be defined..._
+It will attempt to be an hexagonal architecture so to say, since there will be no backend, elements have to be processed on the client, but that does not mean no structure should be followed.
+
+I'm choosing the hexagonal architecture since entities will be the core part of the application. There will be connections (in both ways) to the IndexedDB, to the UI (React), to the store most likely (Redux). Having as much information and logic of each entity centralized will be helpful on the long run, and, from my current perspective, it will be scalable.
+
+As for the decisions, they're based on my experience, both professional and personal experiences, mostly personal. But it is worth noting that this project will be complicating things for the sake of it, not necessarily reinventing the wheel, but it's not it's most optimized version. But I'll learn along the way, and will be prototyping until I get it right.
 
 ## 💡 Objectives and requirements
 [↑ Table of contents](#-contents)
