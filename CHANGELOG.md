@@ -7,9 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 2022-08-06 (v0.0.10)
 
+### Added
+
+- Markdown documents are ignored on validation/deployment.
+
 ### Modified
 
-- Defined the architecture, just a little bit better
+- Defined the architecture, just a little bit better.
 
 ## 2022-08-05 (v0.0.10)
 
