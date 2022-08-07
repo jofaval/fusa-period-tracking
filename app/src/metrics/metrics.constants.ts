@@ -6,4 +6,10 @@ export default {
       KELVIN: 2,
     },
   },
+  WEIGHT: {
+    FORMATS: {
+      KGS: 0,
+      LBS: 1,
+    },
+  },
 };
