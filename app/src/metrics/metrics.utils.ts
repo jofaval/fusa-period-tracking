@@ -74,4 +74,30 @@ export const convertTemperature = ({
   return Number(transformedTempreature.toFixed(decimals));
 };
 
-export default { convertTemperature };
+export const convertWeight = ({
+  weight,
+  originFormat = metricsConstants.WEIGHT.FORMATS.KGS,
+  targetFormat = metricsConstants.WEIGHT.FORMATS.KGS,
+  decimal = 2,
+}: {
+  weight: number;
+  originFormat: number;
+  targetFormat: number;
+  decimal?: number;
+}): number => {
+  if (originFormat === targetFormat) {
+    return Number(weight.toFixed(decimal));
+  }
+
+  let newWeight = weight;
+  const conversor = 2.2046244;
+  if (targetFormat === metricsConstants.WEIGHT.FORMATS.KGS) {
+    newWeight /= conversor;
+  } else if (targetFormat === metricsConstants.WEIGHT.FORMATS.LBS) {
+    newWeight *= conversor;
+  }
+
+  return Number(newWeight.toFixed(decimal));
+};
+
+export default { convertTemperature, convertWeight };

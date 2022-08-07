@@ -27,5 +27,12 @@ export default {
         kelvin: 'Kº',
       },
     },
+    weight: {
+      title: 'Peso',
+      suffix: {
+        kgs: 'kgs',
+        lbs: 'lbs',
+      },
+    },
   },
 };
